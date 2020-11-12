@@ -2,7 +2,7 @@
   "Vue 3 SFC": {
 		"prefix": ["vue3"],
     "body": [
-			"<template>", "\t<div class=\"${TM_FILENAME_BASE/(^[A-Z][a-z]*|[a-z])([A-Z])?/${1:/downcase}${2:+-}${2:/downcase}/g}\">", "\t\t$1", "\t</div>", "</template>", "", "<script lang=\"ts\">", "import { defineComponent } from 'vue';", "", "export default defineComponent({", "\tsetup() {", "\t\t$2", "\t}", "});", "</script>", "", "<style lang=\"scss\" scoped>", "@import 'src/styles/index.scss';", "", ".${TM_FILENAME_BASE/(^[A-Z][a-z]*|[a-z])([A-Z])?/${1:/downcase}${2:+-}${2:/downcase}/g} {", "\t$3", "}", "</style>", ""
+			"<template>", "\t<div class=\"${TM_FILENAME_BASE/(^[A-Z][a-z]*|[a-z])([A-Z])?/${1:/downcase}${2:+-}${2:/downcase}/g}\">", "\t\t$1", "\t</div>", "</template>", "", "<script lang=\"ts\">", "import { defineComponent } from 'vue';", "", "export default defineComponent({", "\tsetup() {", "\t\t$2", "\t}", "});", "</script>", "", "<style lang=\"scss\" scoped>", ".${TM_FILENAME_BASE/(^[A-Z][a-z]*|[a-z])([A-Z])?/${1:/downcase}${2:+-}${2:/downcase}/g} {", "\t$3", "}", "</style>", ""
 		],
     "description": "Vue 3 Single-File-Component boilerplate"
   }
